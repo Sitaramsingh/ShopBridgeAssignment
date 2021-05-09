@@ -13,7 +13,6 @@ export default function TableComponent(props) {
     useEffect(() => {
         setData(props.data);
     },[props.data]);
-    
 
     const handleAction = (btnname,keyId) => {
         if(btnname === 'DANGER_BTN'){
@@ -72,4 +71,4 @@ TableComponent.propTypes = {
     tablehead: PropTypes.array,
     tableclass: PropTypes.string,
     stickyHeader: PropTypes.bool,
-};
+}
