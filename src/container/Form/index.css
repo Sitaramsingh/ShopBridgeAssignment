@@ -1,0 +1,37 @@
+.formStyle{
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formStyle  div div input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+.flexInner{
+    flex: 100%;
+}
+.flexInner div{
+    width: 100%;
+}
+.desflex{
+    flex: 100%;
+}
+.desflex div{
+    width: 100%;
+}
+.modalStyle{
+   min-width: 200px; 
+}
+.btnContainer{
+    margin: auto;
+}
+
+@media(min-width: 767px){
+    .modalStyle{
+      min-width: 600px;
+      left: 25%; 
+    }
+    .flexInner{
+        flex: 35%;
+    }
+}

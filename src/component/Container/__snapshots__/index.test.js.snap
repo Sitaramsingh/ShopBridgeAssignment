@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should be render  should render correctly in "debug" mode 1`] = `
+<div
+  className="offset-md-2 col-md-8 col-sm-12 "
+>
+  <div
+    className="col-md-12 col-sm-12 "
+  />
+</div>
+`;

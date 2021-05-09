@@ -1,0 +1,32 @@
+{ "status": "success", "data": { 
+	"invetory": [ { 
+        "id": "uid1", 
+        "title": "title",
+        "name": "Samsung Galaxy S21",
+        "description": "Phantom Black, 8GB RAM, 128GB Storage",
+        "price": "76999.00",
+        "offer": "Available at a lower price from other sellers that may not offer free Prime shipping."
+		},{ 
+            "id": "uid2", 
+            "name": "OnePlus 9 Pro",
+            "title": "title",
+            "description": "Stellar Black, 8GB RAM, 128GB Storage",
+            "price": "64999.00",
+            "offer": "Available at a lower price from other sellers that may not offer free Prime shipping."
+            },{ 
+                "id": "uid3", 
+                "name": "OnePlus 9R",
+                "title": "title",
+                "description": "Stellar Black, 8GB RAM, 128GB Storage",
+                "price": "40000.00",
+                "offer": "Available at a lower price from other sellers that may not offer free Prime shipping."
+                },{ 
+                    "id": "uid4", 
+                    "name": "Samsung Galaxy Note10 Lite",
+                    "title": "title",
+                    "description": "Aura Glow, 6GB RAM, 128GB Storage",
+                    "price": " 29999.00",
+                    "offer": "Available at a lower price from other sellers that may not offer free Prime shipping."
+            }]
+        }
+    }

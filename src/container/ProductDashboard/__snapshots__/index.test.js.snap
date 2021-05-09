@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should be render  should render correctly in "debug" mode 1`] = `
+<div>
+  <div>
+    <h3
+      className="title"
+    >
+      ProductDashboard
+    </h3>
+  </div>
+  <Container
+    className="mt-5 dashboardContainer"
+  >
+    <div
+      className="flexBox"
+    >
+      <h4>
+        Product List
+           
+      </h4>
+      <button
+        className="addiItem btn btn-primary"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-plus-circle"
+        />
+        Add Items
+      </button>
+    </div>
+    <modal
+      onclose={[Function]}
+      open={false}
+    >
+      <h5>
+         
+        Are you sure you want to delete
+         
+      </h5>
+      <div>
+        <button
+          className="m-2 btn btn-secondary"
+          onClick={[Function]}
+        >
+          Cancel
+        </button>
+        <button
+          className="m-2 btn btn-primary"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </div>
+    </modal>
+  </Container>
+</div>
+`;

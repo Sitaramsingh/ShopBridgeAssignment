@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should be render  should render correctly in "debug" mode 1`] = `
+<modal>
+  <div>
+    <h1
+      className="mt-4"
+    >
+      Add Prodcuts
+    </h1>
+    <form
+      className="pd-2 formStyle"
+    >
+      <div
+        className="m-2"
+      >
+        <inputType
+          key="name"
+          label="Name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Enter Name"
+          value=""
+          variant="outlined"
+        />
+      </div>
+      <div
+        className="m-2"
+      >
+        <inputType
+          key="description"
+          label="Description"
+          name="description"
+          onChange={[Function]}
+          placeholder="Enter Description"
+          value=""
+          variant="outlined"
+        />
+      </div>
+      <div
+        className="m-2"
+      >
+        <inputType
+          key="price"
+          label="Price"
+          name="price"
+          onChange={[Function]}
+          placeholder="Enter Price"
+          value=""
+          variant="outlined"
+        />
+      </div>
+      <button
+        className="m-2 btn btn-secondary"
+        onClick={[Function]}
+      >
+         Cancel 
+      </button>
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+      >
+         
+        Save
+         
+      </button>
+    </form>
+  </div>
+</modal>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should be render  should render correctly in "debug" mode 1`] = `
+<ForwardRef(Modal)
+  aria-describedby="simple-modal-description"
+  aria-labelledby="simple-modal-title"
+>
+  <div
+    className="paper "
+  >
+    <p
+      className="modalHeader"
+    >
+      <svg
+        className="closesvg"
+        svgSrc="close.svg"
+      />
+    </p>
+    <p
+      className="modalTitle"
+      id="simple-modal-title"
+    />
+    <p
+      className="modalDescription"
+      id="simple-modal-description"
+    />
+    <div
+      className="modalBody"
+    />
+  </div>
+</ForwardRef(Modal)>
+`;

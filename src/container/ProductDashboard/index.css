@@ -1,0 +1,19 @@
+.title{
+    color: #707070;
+    margin-top: 10px;
+}
+.dashboardContainer{
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px;
+}
+.flexBox{
+    display: flex;
+    color: #585858;
+    margin: 10px;
+}
+.flexBox div:first-child{
+    text-align: end;
+}
+.addiItem{
+    margin: auto 0 auto auto;
+}
