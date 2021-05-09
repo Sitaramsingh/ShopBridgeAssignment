@@ -38,8 +38,6 @@ const handleUpdate = (state, action)  => {
     return newState;
 }
 
-
-
 export default function getInventoryReducer(state = initialState, action) {
     switch (action.type) {
         case actionTypes.GET_INVENTORY_PRODUCT:
