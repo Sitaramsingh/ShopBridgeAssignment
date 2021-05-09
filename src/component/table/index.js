@@ -14,6 +14,7 @@ export default function TableComponent(props) {
         setData(props.data);
     },[props.data]);
 
+    
     const handleAction = (btnname,keyId) => {
         if(btnname === 'DANGER_BTN'){
             props.deleteAction(keyId);
